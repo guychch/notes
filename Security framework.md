@@ -1,4 +1,4 @@
-#CyberSecurity notes
+# CyberSecurity notes
 
 ## CIS Controls for SME
 
