@@ -1,6 +1,6 @@
 # CyberSecurity notes
 
-> [!NOTE]  Security+ will cover:
+[!TIP] Security+ will cover:
 
 1.Compare and contrast different types of social engineering techniques
 
