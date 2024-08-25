@@ -5,13 +5,13 @@ The Core Rules of Netiquette are excerpted from the book Netiquette by Virginia 
 
 http://www.albion.com/netiquette/corerules.html
 
-#1: Remember the human
+# 1: Remember the human
 When you communicate electronically, all you see is a computer screen. You don't have the opportunity to use facial expressions, gestures, and tone of voice to communicate your meaning; words -- lonely written words -- are all you've got. And that goes for your correspondent as well.
 
 
 Computer networks bring people together who'd otherwise never meet. But the impersonality of the medium changes that meeting to something less -- well, less personal.
 
-#2: Adhere to the same standards of behavior
+# 2: Adhere to the same standards of behavior
 In real life, most people are fairly law-abiding, either by disposition or because we're afraid of getting caught. And, perhaps because people sometimes forget that there's a human being on the other side of the computer, some people think that a lower standard of ethics or personal behavior is acceptable in cyberspace.
 
 
@@ -20,7 +20,7 @@ Be ethical : Don't believe anyone who says, "The only ethics out there are what 
 
 Breaking the law is bad Netiquette : If you're tempted to do something that's illegal in cyberspace, chances are it's also bad Netiquette.
 
-#3: You are not the center of cyberspace
+# 3: You are not the center of cyberspace
 When you're working hard on a project and deeply involved in it, it's easy to forget that other people have concerns other than yours.
 
 
@@ -32,7 +32,7 @@ Don't expect instant responses to all your questions.
 
 Don't assume that all readers will agree with, or care about, your passionate arguments.
 
-#4: Make yourself look good, Share expert knowledge
+# 4: Make yourself look good, Share expert knowledge
 Don't flame, or post flame-bait. Be courteous!
 
 
@@ -41,7 +41,7 @@ You may not be judged by the color of your skin, eyes, or hair, your weight, you
 
 Pay attention to the content of your writing. Be sure you know what you're talking about; bad information propagates like wildfire on the net.  In addition, make sure your writing is clear and logical. It's perfectly possible to write a paragraph that contains no errors in grammar or spelling, but still makes no sense whatsoever.
 
-#5: Be forgiving of other people's mistakes; Never be arrogant or self-righteous
+# 5: Be forgiving of other people's mistakes; Never be arrogant or self-righteous
 When someone makes a mistake -- whether it's a spelling error, a silly question or an unnecessarily long answer -- be kind about it. If you feel strongly about it, think twice before reacting.
 
 
