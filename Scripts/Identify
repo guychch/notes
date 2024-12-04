@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# Function to display the welcome message
+function welcome() {
+    echo "Welcome to the Nmap Scan Script!"
+}
+
+# Function to ask for user input for target or range
+function get_target_input() {
+    # Prompt user for the target input (IP address, domain, or IP range)
+    read -p "Enter a target IP address, domain, or IP range (e.g., 192.168.1.1 or 192.168.1.1-192.168.1.10): " target_input
+    echo $target_input
+}
+
+# Function to perform the scan using nmap and save the output to a file
+function scan_target() {
+    local target=$1
+    local output_file=$2
+    echo "Scanning $target..."
+    
+    # Perform the nmap scan and save the output to a file
+    date
+    hostname
+    echo --------- Scanning 1---------------
+    nmap $target -oN $output_file
+    echo --------- Scanning 2---------------
+    nmap $target -sn >> $output_file
+    echo --------- Scanning 3---------------
+    nmap $target -sS >> $output_file
+    echo --------- Scanning 4---------------
+    nmap $target -sV >> $output_file
+    echo --------- Scanning 5---------------
+    nmap $target -sU >> $output_file
+    echo --------- Scanning 6---------------
+    nmap $target -p 80,443 $output_file
+    echo --------- Scanning 7---------------
+    nmap $target -v -Pn -sU -sT -p U:53,111,137, T:21-25,80,139,8080 $output_file
+    echo --------- Ending ---------------
+    echo "Scan results saved to $output_file"
+}
+
+# Main function
+function main() {
+    # Call the welcome function
+    welcome
+    
+    # Ask for the target (single or range)
+    target_input=$(get_target_input)
+    
+    # Ask for the output filename
+    read -p "Enter the name of the file to save the scan results (e.g., scan_results.txt): " output_file
+
+    # Perform the scan and save the results
+    scan_target "$target_input" "$output_file"
+}
+
+# Run the main function
+main
