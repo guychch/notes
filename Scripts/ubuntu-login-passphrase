@@ -1,0 +1,32 @@
+Here is steps to configure login with Passphrase
+
+Steps:
+1. Generate SSH Key Pair:
+
+    Open a terminal window. 
+
+Navigate to your SSH directory: cd ~/.ssh 
+Generate the key pair with a passphrase: ssh-keygen -t rsa 
+
+    When prompted, enter a strong passphrase and re-enter it to confirm. 
+
+2. Identify your public key:
+
+    View your public key: cat ~/.ssh/id_rsa.pub 
+
+3. Add the public key to the server:
+
+    Using ssh-copy-id (recommended):
+        Run: ssh-copy-id -i ~/.ssh/id_rsa.pub username@server_address
+        Enter your server password when prompted. 
+
+Key points to remember:
+
+    Strong passphrase: Choose a complex passphrase that is difficult to guess. 
+
+File permissions: Make sure your .ssh directory and authorized_keys file have appropriate permissions (chmod 700 ~/.ssh and chmod 600 ~/.ssh/authorized_keys) 
+
+To verify your setup:
+
+    Try logging into your Ubuntu server using SSH.
+    You should be prompted to enter your passphrase when attempting to connect. 
