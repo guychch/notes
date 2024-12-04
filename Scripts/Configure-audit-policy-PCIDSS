@@ -1,0 +1,29 @@
+# PowerShell script to configure audit policies for PCI compliance
+
+# Enable Audit Policy for Account Logon Events
+auditpol /set /subcategory:"Logon" /success:enable /failure:enable
+
+# Enable Audit Policy for Account Management Events
+auditpol /set /subcategory:"Account Management" /success:enable /failure:enable
+
+# Enable Audit Policy for Logon Events
+auditpol /set /subcategory:"Logon" /success:enable /failure:enable
+
+# Enable Audit Policy for Object Access Events
+auditpol /set /subcategory:"Object Access" /success:enable /failure:enable
+
+# Enable Audit Policy for Policy Change Events
+auditpol /set /subcategory:"Policy Change" /success:enable /failure:enable
+
+# Enable Audit Policy for Privilege Use Events
+auditpol /set /subcategory:"Privilege Use" /success:enable /failure:enable
+
+# Enable Audit Policy for System Events
+auditpol /set /subcategory:"System" /success:enable /failure:enable
+
+# Enable Audit Policy for Process Tracking
+auditpol /set /subcategory:"Process Creation" /success:enable /failure:enable
+
+# Additional audit policies can be set here
+
+Write-Output "Audit policies have been configured for PCI compliance."
